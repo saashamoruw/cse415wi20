@@ -25,6 +25,7 @@ import sys
 
 if sys.argv==[''] or len(sys.argv)<2:
   import EightPuzzle as Problem
+  #import FranceWithDXHeuristic as Problem
 else:
   import importlib
   Problem = importlib.import_module(sys.argv[1])
@@ -153,7 +154,8 @@ def UCS(initial_state):
       print(Problem.GOAL_MESSAGE_FUNCTION(S))
       path = backtrace(S)
       print('Length of solution path found: '+str(len(path)-1)+' edges')
-      TOTAL_COST = g[S]
+      #TOTAL_COST = g[S]
+      TOTAL_COST = P
       print('Total cost of solution path found: '+str(TOTAL_COST))
       return path
     COUNT += 1

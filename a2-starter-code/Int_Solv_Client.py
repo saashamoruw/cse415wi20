@@ -54,7 +54,7 @@ Do you wish to continue exploring?
       else: return
 
     applicability_vector = get_applicability_vector(CURRENT_STATE)
-    print("applicability_vector = "+str(applicability_vector))
+    #print("applicability_vector = "+str(applicability_vector))
     for i in range(len(OPERATORS)):
       if applicability_vector[i]:
         print(str(i)+": "+OPERATORS[i].name)
@@ -93,7 +93,7 @@ Do you wish to continue exploring?
     #print("Operator "+command+" not yet supported.")
 
 def get_applicability_vector(s):
-    print("OPERATORS: "+str(OPERATORS))
+    #print("OPERATORS: "+str(OPERATORS))
     return [op.is_applicable(s) for op in OPERATORS]  
 
 def exit_client():
@@ -144,7 +144,7 @@ import sys, importlib.util
 #   ''')
 #   exit(1)
 
-problem_name = "Farmer_Fox2"
+problem_name = "Farmer_Fox"
 print("problem_name = "+problem_name)
 
 try:
