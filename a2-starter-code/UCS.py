@@ -24,8 +24,10 @@ VERBOSE = True  # Set to True to see progress; but it slows the search.
 import sys
 
 if sys.argv==[''] or len(sys.argv)<2:
-  import EightPuzzle as Problem
+  # import EightPuzzle as Problem
+  #import puzzle_rotate_2 as Problem
   #import FranceWithDXHeuristic as Problem
+  import TowersOfHanoi as Problem
 else:
   import importlib
   Problem = importlib.import_module(sys.argv[1])

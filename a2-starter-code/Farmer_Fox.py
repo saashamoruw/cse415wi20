@@ -16,8 +16,6 @@ PROBLEM_VERSION = "1.0"
 PROBLEM_AUTHORS = ['S. Mor']
 PROBLEM_CREATION_DATE = "21-JAN-2020"
 
-# The following field is mainly for the human solver, via either the Text_SOLUZION_Client.
-# or the SVG graphics client.
 PROBLEM_DESC=\
  '''The <b> Farmer, Fox, Chicken, and Grain.</b> puzzle is a traditional puzzle which goes as follows
 A farmer needs to take a fox, chicken and sack of grain across a river using a small

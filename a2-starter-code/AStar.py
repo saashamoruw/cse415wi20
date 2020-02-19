@@ -7,9 +7,7 @@ Assignment 2, in CSE 415, Winter 2020.
 
  Usage:
  python3 AStar.py FranceWithCosts
-This implementation does not reconsider a state once it has
-been put on CLOSED list.  If this implementation is extended
-to implement A*, and it is to work will all heuristics,
+This implementation works will all heuristics,
 including non-admissible ones, then when a state is regenerated
 that was already put on the CLOSED list, it may need reconsideration
 if the new priority value is lower than the old one.
@@ -25,8 +23,8 @@ VERBOSE = True  # Set to True to see progress; but it slows the search.
 import sys
 
 if sys.argv == [''] or len(sys.argv) < 2:
-    #import EightPuzzle as Problem
-    import FranceWithDXHeuristic as Problem
+    import EightPuzzleWithHamming as Problem
+    #import FranceWithDXHeuristic as Problem
 else:
     import importlib
 

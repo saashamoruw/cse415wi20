@@ -125,7 +125,16 @@ try:
   print("Initial state as given on the command line: "+init_state_string)
   init_state_list = eval(init_state_string)
 except:
-  init_state_list = [[3, 1, 2], [0, 5, 8], [4, 6, 7]]
+  # init_state_list = [[3, 1, 2], [0, 5, 8], [4, 6, 7]]
+  # Puzzle A
+  # init_state_list = [[3,0,1],[6,4,2],[7,8,5]]
+  # Puzzle B
+  # init_state_list = [[3,1,2],[6,8,7],[5,4,0]]
+  # Puzzle C
+  # init_state_list = [[4,5,0],[1,2,8],[3,7,6]]
+  # Puzzle D
+  # init_state_list = [[0,8,2],[1,7,4],[3,6,5]]
+
   print("Using default initial state list: "+str(init_state_list))
   print(" (To use a specific initial state, enter it on the command line, e.g.,")
   print("python3 UCS.py EightPuzzle '[[3, 1, 2], [0, 4, 5], [6, 7, 8]]'")

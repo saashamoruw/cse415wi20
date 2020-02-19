@@ -1,0 +1,285 @@
+Welcome to ItrDFS
+Initial State:
+
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:1
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:0
+Grain on RIGHT:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now: 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:1
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:0
+Grain on RIGHT:0
+ boat is on the right.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 1
+OPEN is now: 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now: 
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 3
+OPEN is now: 
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the right.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now: 
+Farmer on LEFT:1
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:0
+ boat is on the left.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now: 
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the right.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 6
+OPEN is now: 
+Farmer on LEFT:1
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:0
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the left.
+, 
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the left.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=7; COUNT = 7
+OPEN is now: 
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+, 
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the left.
+, 
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=8; COUNT = 8
+Congratulations on successfully transfer all people from LEFT to right!
+Solution path: 
+
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:1
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:0
+Grain on RIGHT:0
+ boat is on the left.
+
+
+Farmer on LEFT:0
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the right.
+
+
+Farmer on LEFT:1
+Fox on LEFT:1
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:0
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the left.
+
+
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:0
+Grain on LEFT:1
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:1
+Grain on RIGHT:0
+ boat is on the right.
+
+
+Farmer on LEFT:1
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:1
+Farmer on RIGHT:0
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:0
+ boat is on the left.
+
+
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the right.
+
+
+Farmer on LEFT:1
+Fox on LEFT:0
+Chicken on LEFT:1
+Grain on LEFT:0
+Farmer on RIGHT:0
+Fox on RIGHT:1
+Chicken on RIGHT:0
+Grain on RIGHT:1
+ boat is on the left.
+
+
+Farmer on LEFT:0
+Fox on LEFT:0
+Chicken on LEFT:0
+Grain on LEFT:0
+Farmer on RIGHT:1
+Fox on RIGHT:1
+Chicken on RIGHT:1
+Grain on RIGHT:1
+ boat is on the right.
+
+Length of solution path found: 7 edges
+8 states expanded.
+MAX_OPEN_LENGTH = 3
+
+Process finished with exit code 0

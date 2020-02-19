@@ -1,0 +1,41 @@
+morsaasha
+
+Score Report for A1, Part A
+
+Problem 1
+	 Tested with the following values: 30, 10, 0, -9
+	 Total points for Part A, Problem 1: 4
+
+Problem 2
+	 Tested with the following values: 2, 3, 108
+	 Total points for Part A, Problem 2: 6
+
+Problem 3
+	 Tested with https://www.cs.washington.edu/ (url) and 'computer'
+ 	 Incorrect probability value: 5 points
+
+Total points for Part A: 15/20
+
+Score Report for A1, Part B
+
+	Description of Major and Field: 3/3
+	Turing Test: 5/5
+	Must-have Feature: 2/2
+	Future: 3/3
+	Citations: 2/2
+
+Total points for Part B: 15/15
+
+Part C grading
+
+	agent named correctly: 1/1
+	agent related to Turing test design: 5/5
+	minimum of 10 rules: 5/5
+	comments in code: 1/1
+	appropriate introduction: 1/1
+	agentName implemented: 1/1
+	imports chatbot: 1/1
+
+Total points for Part C: 15/15
+
+TOTAL POINTS HW1: 45/50

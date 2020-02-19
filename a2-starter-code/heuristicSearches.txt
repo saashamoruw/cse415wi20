@@ -1,49 +1,42 @@
-NOTES: PLEASE USE THIS GENERAL FORMAT FOR YOUR REPORT.
-YOU CAN USE WORD OR SOME OTHER TEXT-PROCESSING TOOL
-OR JUST USE THIS TEMPLATE ADDING THE DATA WHERE NEEDED.
-PLEASE REMOVE THESE INSTRUCTIONS PRIOR TO CONVERTING
-TO PDF AND TURNING THIS IN.  BE SURE TO NAME THE NEW
-FILE PROPERLY, AS EXPLAINED IN THE A3 SPECIFICATION.
-
 A3_Report.pdf
 
-name:
+name: Saasha Mor
 
-student number:
+student number: 1738927
 
 Assignment 3 Report -- Heuristic Search
 
 CSE 415: Introduction to Artificial Intelligence
-Autumn, 2019
+Winter, 2020
 
 
 1. Results with Heuristics for the Eight Puzzle
 
  Puzzle  Heuristic  Solved?  # Soln Edges  Soln Cost   # Expanded  Max OPEN
 +------+-----------+-------+--------------+----------+------------+--------+
-|  A   | none (UCS)|   Y   |              |          |            |        |
+|  A   | none (UCS)|   Y   |       7      |    7     |    166     |   101  |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  A   | Hamming   |   Y   |              |          |            |        |
+|  A   | Hamming   |   Y   |       7      |    7     |     8      |   6    |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  A   | Manhattan |   Y   |              |          |            |        |
+|  A   | Manhattan |   Y   |       7      |    7     |     7      |   6    |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  B   | none (UCS)|       |              |          |            |        |
+|  B   | none (UCS)|   Y   |      12      |    12    |   1490     |   898  |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  B   | Hamming   |       |              |          |            |        |
+|  B   | Hamming   |   Y   |      12      |    12    |    97      |  72    |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  B   | Manhattan |       |              |          |            |        |
+|  B   | Manhattan |  Y    |     12       |    12    |     34     |   25   |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  C   | none (UCS)|       |              |          |            |        |
+|  C   | none (UCS)|   Y   |     14       |     14   |   4070     | 2290   |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  C   | Hamming   |       |              |          |            |        |
+|  C   | Hamming   |  Y    |    14        |    14    |   202      | 127    |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  C   | Manhattan |       |              |          |            |        |
+|  C   | Manhattan |  Y    |     14       |    14    |   56       |  39    |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  D   | none (UCS)|       |              |          |            |        |
+|  D   | none (UCS)|   Y   |      16      |   16     |    7982    | 4700   |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  D   | Hamming   |       |              |          |            |        |
+|  D   | Hamming   |   Y   |      16      |   16     |     620    |  365   |
 +------+-----------+-------+--------------+----------+------------+--------+
-|  D   | Manhattan |       |              |          |            |        |
+|  D   | Manhattan |   Y   |     16       |   16     |    155     |  98    |
 +------+-----------+-------+--------------+----------+------------+--------+
 
 Puzzle A: [3,0,1,6,4,2,7,8,5]
@@ -51,6 +44,4 @@ Puzzle B: [3,1,2,6,8,7,5,4,0]
 Puzzle C: [4,5,0,1,2,8,3,7,6]
 Puzzle D: [0,8,2,1,7,4,3,6,5]
 
-
-2. (Optional) Evaluating My Custom Heuristics
 
